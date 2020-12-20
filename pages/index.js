@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <PrankHead title="Chicag0 Tribune News" />
+      <PrankHead title="NBA Basketball News" />
 
       <main>
         <Header title="Let's prank people!" />
@@ -17,7 +17,7 @@ export default function Home() {
           Type in the prank article you'd like to share with folks: <br />
           <input
             type="text"
-            placeholder="Cassidy saves entire school"
+            placeholder="Kevin Durant seeking trade to Golden State!"
             value={title}
             onChange={(e) => {
               setTitle(e.target.value)
