@@ -27,7 +27,7 @@ export default function Home() {
             <div>
               Send this URL to your friends! <br />
               <Link href={`/news/${title.toLowerCase().split(' ').join('-')}`}>
-                <a>chicag0tribune.netlify.app/news/{title.toLowerCase().split(' ').join('-')}</a>
+                <a>nbarumors.netlify.app/news/{title.toLowerCase().split(' ').join('-')}</a>
               </Link>
             </div>
           )}
